@@ -3,6 +3,7 @@
 GlamAura is a web-based application developed using PHP that allows users to browse and purchase cosmetics and imitation jewelry products online. It provides a simple and user-friendly interface for customers and an admin panel for managing the system.
 
 🚀 Features
+
 👤 User Features
 - Browse product categories and items
 - Add products to shopping cart
@@ -16,6 +17,7 @@ GlamAura is a web-based application developed using PHP that allows users to bro
    Date of Birth
    Remarks
 - Search products by name
+  
 🔐 Admin Features
 - Add/Delete product categories
 - Add/Delete/Update products
@@ -25,6 +27,7 @@ GlamAura is a web-based application developed using PHP that allows users to bro
 - View reports:
    Top 10 best-selling products
    Top 10 customers
+  
 🛠️ Technologies Used
 - PHP
 - MySQL
