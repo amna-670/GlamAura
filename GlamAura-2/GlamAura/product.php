@@ -349,7 +349,7 @@ $cart_count = array_sum($_SESSION['cart']);
                     
                     if (mysqli_num_rows($product_query) > 0) {
                         while ($product = mysqli_fetch_assoc($product_query)) {
-                            $image_path = "../admin panel/uploads/" . $product['image'];
+                            $image_path = "../admin/uploads/" . $product['image'];
                             if (!file_exists($image_path) || $product['image'] == '') {
                                 $image_path = "https://via.placeholder.com/400x300.png?text=No+Image";
                             }
@@ -423,7 +423,7 @@ $cart_count = array_sum($_SESSION['cart']);
 
                     if (mysqli_num_rows($product_query) > 0) {
                         while ($product = mysqli_fetch_assoc($product_query)) {
-                            $image_path = "../admin panel/uploads/" . $product['image'];
+                            $image_path = "../admin/uploads/" . $product['image'];
                             if (!file_exists($image_path) || $product['image'] == '') {
                                 $image_path = "https://via.placeholder.com/400x300.png?text=No+Image";
                             }
@@ -498,7 +498,7 @@ $cart_count = array_sum($_SESSION['cart']);
 
                     if (mysqli_num_rows($category_query) > 0) {
                         while ($category = mysqli_fetch_assoc($category_query)) {
-                            $image_path = "../admin panel/uploads/" . $category['image'];
+                            $image_path = "../admin/uploads/" . $category['image'];
                             if (!file_exists($image_path) || $category['image'] == '') {
                                 $image_path = "https://via.placeholder.com/400x300.png?text=No+Image";
                             }
