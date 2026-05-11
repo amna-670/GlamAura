@@ -569,7 +569,7 @@ if (!empty($_SESSION['cart'])) {
                                     $image_path = "images/default-product.jpg"; // Default image
                                     if (!empty($product['image'])) {
                                         $possible_paths = [
-                                            "../admin panel/uploads/" . $product['image'],
+                                            "../admin/uploads/" . $product['image'],
                                             "uploads/" . $product['image'],
                                             "images/" . $product['image'],
                                             $product['image']
